@@ -26,6 +26,24 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i< 2;i++){
             Fruit apple = new Fruit("Apple",R.mipmap.ic_launcher);
             fruitList.add(apple);
+            Fruit banana = new Fruit("Banana",R.mipmap.ic_launcher);
+            fruitList.add(banana);
+            Fruit orange = new Fruit("Orange",R.mipmap.ic_launcher);
+            fruitList.add(orange);
+            Fruit watermelon = new Fruit("Watermelon",R.mipmap.ic_launcher);
+            fruitList.add(watermelon);
+            Fruit pear = new Fruit("Pear",R.mipmap.ic_launcher);
+            fruitList.add(pear);
+            Fruit grapr = new Fruit("Grapr",R.mipmap.ic_launcher);
+            fruitList.add(grapr);
+            Fruit pineapple = new Fruit("Pineapple",R.mipmap.ic_launcher);
+            fruitList.add(pineapple);
+            Fruit strawbarry = new Fruit("Strawbarry",R.mipmap.ic_launcher);
+            fruitList.add(strawbarry);
+            Fruit charry = new Fruit("Charry",R.mipmap.ic_launcher);
+            fruitList.add(charry);
+            Fruit mango = new Fruit("Mango",R.mipmap.ic_launcher);
+            fruitList.add(mango);
         }
     }
 }
